@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disclaimer — depaFIN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d1117;--surface:#111820;--surface2:#161e2a;
+  --border:#1e2d3d;--cyan:#00e5c0;--cyan-dim:#00b89a;
+  --text:#c8d0dc;--muted:#4a5568;--white:#f0f3fa;--amber:#f0a500;
+  --serif:'Instrument Serif',Georgia,serif;
+  --mono:'DM Mono',monospace;--sans:'Inter',system-ui,sans-serif;
+}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 40px;background:rgba(13,17,23,0.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:var(--mono);font-size:1rem;color:var(--cyan);letter-spacing:0.06em;text-decoration:none}
+.nav-logo span{color:var(--muted)}
+.back-link{font-family:var(--mono);font-size:0.78rem;color:var(--muted);text-decoration:none;transition:color .15s}
+.back-link:hover{color:var(--cyan)}
+
+main{max-width:760px;margin:0 auto;padding:130px 40px 100px}
+.eyebrow{font-family:var(--mono);font-size:0.68rem;color:var(--cyan);letter-spacing:0.22em;text-transform:uppercase;margin-bottom:18px}
+h1{font-family:var(--serif);font-size:clamp(2rem,4vw,2.8rem);color:var(--white);font-weight:400;margin-bottom:8px}
+.updated{font-family:var(--mono);font-size:0.72rem;color:var(--muted);margin-bottom:48px}
+
+h2{font-family:var(--serif);font-size:1.4rem;color:var(--white);font-weight:400;margin:40px 0 14px}
+p{margin-bottom:16px;font-weight:300}
+ul{margin:0 0 16px 0;padding-left:20px}
+li{margin-bottom:8px;font-weight:300}
+
+.warn-box{background:var(--surface);border:1px solid var(--amber);border-radius:6px;padding:24px 26px;margin-bottom:8px}
+.warn-label{font-family:var(--mono);font-size:0.65rem;color:var(--amber);letter-spacing:0.16em;text-transform:uppercase;margin-bottom:10px}
+.warn-box p{margin-bottom:0;font-size:0.95rem;color:var(--text)}
+
+.copy-box{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:24px 26px;margin-top:8px}
+.copy-box p:last-child{margin-bottom:0}
+
+footer{padding:32px 40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;border-top:1px solid var(--border)}
+footer .foot-logo{font-family:var(--mono);font-size:0.85rem;color:var(--cyan)}
+footer p{font-size:0.7rem;color:var(--muted);font-family:var(--mono)}
+footer a{color:var(--muted);text-decoration:none}
+
+@media(max-width:680px){
+  nav{padding:12px 18px}
+  main{padding:100px 18px 60px}
+  footer{padding:24px 18px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">depa<span>FIN</span></a>
+  <a class="back-link" href="index.html">← Terug naar depaFIN</a>
+</nav>
+
+<main>
+  <div class="eyebrow">Juridisch</div>
+  <h1>Disclaimer</h1>
+  <div class="updated">Laatst bijgewerkt — juni 2026</div>
+
+  <div class="warn-box">
+    <div class="warn-label">⚠ Geen beleggingsadvies</div>
+    <p>depaFIN is een analysehulpmiddel en geeft geen beleggingsadvies. Alle informatie, berekeningen, scores en rapporten gegenereerd door depaFIN (inclusief DCF-waarderingen, technische analyse en AI-rapporten) zijn uitsluitend bedoeld ter ondersteuning van je eigen besluitvorming en mogen nooit als financieel of beleggingsadvies worden geïnterpreteerd.</p>
+  </div>
+
+  <h2>Eigen verantwoordelijkheid</h2>
+  <p>Het gebruik van depaFIN gebeurt volledig op eigen risico. Beleggen in aandelen, ETF's en andere financiële instrumenten brengt altijd risico's met zich mee, inclusief het risico op (gedeeltelijk) verlies van ingelegd kapitaal. De gebruiker blijft te allen tijde zelf verantwoordelijk voor zijn of haar beleggingsbeslissingen.</p>
+  <p>depaFIN en de auteur ervan aanvaarden geen enkele aansprakelijkheid voor verliezen, schade of gemiste winsten die voortvloeien uit het gebruik van de tool of het volgen van de daarin weergegeven analyses.</p>
+
+  <h2>Nauwkeurigheid van gegevens</h2>
+  <p>depaFIN haalt koersen en fundamentele data op via externe bronnen zoals Yahoo Finance. Hoewel deze gegevens met zorg worden verwerkt, kan de juistheid, volledigheid of actualiteit ervan niet worden gegarandeerd. Koersdoelen, DCF-scenario's en technische scores zijn modelmatige inschattingen op basis van aannames en historische data — geen voorspellingen van toekomstige koersontwikkeling.</p>
+
+  <h2>AI-gegenereerde inhoud</h2>
+  <p>Rapporten en analyses die via AI worden gegenereerd binnen depaFIN zijn ondersteunend en kunnen onnauwkeurigheden bevatten. Controleer steeds zelf de onderliggende cijfers en aannames voor je een beslissing neemt.</p>
+
+  <h2>Copyright</h2>
+  <div class="copy-box">
+    <p>Alle inhoud, broncode, ontwerp, methodologie en functionaliteit van depaFIN zijn eigendom van Lieven de Paepe en worden beschermd door het auteursrecht. Het is niet toegestaan om depaFIN, of delen ervan (inclusief broncode, DCF-methodologie, ontwerp of merknaam), te kopiëren, herdistribueren, doorverkopen of commercieel te exploiteren zonder voorafgaande schriftelijke toestemming.</p>
+    <p>© 2026 Lieven de Paepe — depaFIN. Alle rechten voorbehouden.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <p>Vragen over deze disclaimer of over depaFIN kan je richten aan <a href="mailto:info@depafin.be" style="color:var(--cyan);text-decoration:none">info@depafin.be</a>.</p>
+</main>
+
+<footer>
+  <div class="foot-logo">depaFIN</div>
+  <p>© 2026 Lieven de Paepe · depafin.be</p>
+  <p><a href="index.html">← Terug naar depaFIN</a></p>
+</footer>
+
+</body>
+</html>
